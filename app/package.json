@@ -1,8 +1,8 @@
 {
   "name": "my_app",
   "version": "1.0.0",
-  "description": "Sample used for container templates",
-  "author": "Shashank Barsin",
+  "description": "Application used for K8s deployment",
+  "author": "Bindesh K",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
