@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: novatecstackakswithdevopsandterraform 
-          image: bincontainerregstry.azurecr.io/novatecstackakswithdevopsandterraform
+          image: bincontainerregstry.azurecr.io/novatecstacktestaksrepos
           ports:
-          - containerPort: 80
+          - containerPort: 8080
