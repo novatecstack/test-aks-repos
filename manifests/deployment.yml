@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: novatecstackakswithdevopsandterraform 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: novatecstackakswithdevopsandterraform
+  template:
+    metadata:
+      labels:
+        app: novatecstackakswithdevopsandterraform 
+    spec:
+      containers:
+        - name: novatecstackakswithdevopsandterraform 
+          image: bincontainerregstry.azurecr.io/novatecstackakswithdevopsandterraform
+          ports:
+          - containerPort: 80
