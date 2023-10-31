@@ -11,7 +11,7 @@ resources:
 variables:
 
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '7c0b7ea7-044b-48bc-b327-1827daa181a6'
+  dockerRegistryServiceConnection: 'acrconnection'
   imageRepository: 'novatecstackakswithdevopsandterraform'
   containerRegistry: 'bincontainerregstry.azurecr.io'
   dockerfilePath: '**/Dockerfile'
